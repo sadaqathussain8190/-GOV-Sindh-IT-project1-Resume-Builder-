@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+  
+    <link rel="stylesheet" href="hac.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder By Sadaqat</h1>
+    <form id="resume-form">
+        <fieldset>
+            <legend><i>Personal Information</i></legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter your phone number" required>
+        </fieldset>
+
+        <fieldset>
+            <legend><i>Education</i></legend>
+            <label for="education">Education:</label><br>
+            <textarea id="education" placeholder="Enter your education" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend><i>Experience</i></legend>
+            <label for="experience">Experience:</label><br>
+            <textarea id="experience" placeholder="Enter your experience" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend><i>Skills</i></legend>
+            <label for="skills">Skills:</label><br>
+            <textarea id="skills" placeholder="Enter your skills" rows="5" required></textarea>
+        </fieldset>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <br>
+    <div id="resume-display"></div>
+    <script src="hac.js" type="module"></script>
+
+
+</body>
+</html>
