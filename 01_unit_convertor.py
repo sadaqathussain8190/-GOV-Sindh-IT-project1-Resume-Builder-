@@ -125,7 +125,7 @@
       "metadata": {
         "id": "6kEYi3oO68rw"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     }
   ]
